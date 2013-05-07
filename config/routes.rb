@@ -3,6 +3,8 @@ Demo::Application.routes.draw do
 
   get "say/goodbye"
 
+  root :to => 'say#hello'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
